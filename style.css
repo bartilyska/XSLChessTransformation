@@ -1,0 +1,299 @@
+body
+{
+	background-color: #343434;
+}
+#kontener
+{
+	background-color:#5F9EA0;
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#tytul
+{
+	color:#ECEFF1;
+	font-size:68px;
+	font-family:"Arial";
+	text-transform:uppercase;
+	text-decoration:underline;
+	text-align:center;
+	letter-spacing: 3px;
+	margin-top:40px;
+	padding-top:5px;
+	margin-bottom:30px;
+}
+#navi
+{
+	float:left;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+#navi>li
+{
+	display:inline-block;
+	float:left;
+	background-color:#330033;
+	width:238px;
+	height:50px;
+	padding-top:4px;
+	border-right:2px dotted orange;
+	margin-bottom:30px;
+}
+#navi>li:first-child
+{
+	border-left:1px solid orange;
+}
+#navi>li:last-child
+{
+	border-right:1px solid orange;
+}
+#navi>li>a
+{
+	color: LightCyan;
+	font-size:38px;
+	text-decoration:none;
+}
+#navi>li>a:hover
+{
+	color:lime;
+}
+#navi>li:hover>ul
+{
+	display:block;
+}
+#navi>li>ul
+{
+	display:none;
+}
+#navi>li>ul
+{
+	margin:0px;
+	padding:0px;
+	background-color:#330033;
+	text-decoration:none;
+	list-style-type:none;
+	position:relative;
+}
+#navi>li>ul>li
+{
+	font-size:25px;
+	text-align:center;
+	padding-top:7px;
+	padding-bottom:8px;
+}
+#navi>li>ul>li>a
+{
+	color: LightCyan;
+	font-size:30px;
+	text-decoration:none;
+}
+#navi>li>ul>li>a:hover
+{
+	color:lime;
+}
+
+
+.down
+{ 
+	position:fixed;
+	height:40px;
+	width:40px;
+	top:40px;
+	right:30px;
+}
+.up
+{ 
+	position:fixed;
+	height:40px;
+	width:40px;
+	bottom:40px;
+	right:30px;
+}
+h1
+{
+	text-align:center;
+	font-size:55px;
+	text-transform:uppercase;
+	font-family:"Arial";
+	letter-spacing:2px;
+	color: #8B008B;
+}
+.zdjecie
+{
+	width:320px;
+	height:320px;
+	margin-left:40px;
+	margin-right:40px;
+	margin-bottom:40px;
+	border-radius:20px;
+	float:left;
+	opacity:0.85;
+}
+.zdjecie:hover
+{
+	opacity:1;
+}
+.opis
+{
+	float:left;
+	margin-left:40px;
+	background-color:#CD5C5C;
+	width:600px;
+}
+h2
+{
+	text-align:center;
+	color:#ECEFF1;
+	font-size:40px;
+	margin:5px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+h3
+{	
+	text-align:center;
+}
+.osiagniecia
+{
+	margin-top:10px;
+	font-size:24px;
+	list-style-type:none;
+}
+#bottom{
+	background-color:gray;
+	text-align:center;
+	font-size:25px;
+	color:white;
+	margin-top:20px;
+}
+#bottom>a:link
+{
+	text-decoration:none;
+}
+#bottom>a:hover{
+	color:lime !important;
+}
+
+
+
+#formularz
+{
+	margin-left:60px;
+	float:left;
+}
+p
+{
+	font-size:32px;
+	text-transform:uppercase;
+	color:DarkOrchid;
+	margin-bottom:10px;
+}
+label
+{
+	font-size:22px;
+	color:Indigo;
+}
+input[type=reset],[type=submit]
+{
+	background-color:Indigo;
+	color:white;
+	width:60px;
+	height:35px;
+	font-size:18px;
+}
+input[type=text],[type=radio] {
+  padding: 5px 6px;
+  border:2px solid gold;
+  border-radius:3px;
+  color:green;
+}
+textarea
+{
+  border:2px solid gold;
+  border-radius:3px;
+  margin-bottom:0px;
+}
+#submit,#reset:hover{
+	cursor:pointer;
+}
+checkbox:hover
+{
+	cursor:pointer;
+}
+ol{
+	width:600px;
+	font-size:30px;
+	margin:40px;
+	margin-top:0px;
+	float:left;
+	background-color:#CD5C5C;
+	border-radius:10px;
+}
+ol>li::first-letter
+{
+	color:white;
+	font-size:32px;
+}
+.szachy
+{
+	width:450px;
+	float:left;
+	border-radius:15px;
+}
+table,th,td
+{
+	width:450px;
+	margin-left:20px;
+	border:2px solid indigo;
+	background-color:#F0E68C;
+	border-radius:5px;
+}
+th
+{
+	font-size:25px;
+	color:darkgreen;
+}
+td
+{
+	font-size:22px;
+	color: 	#FF4500;
+	text-align:center;
+}
+svg
+{
+	 animation:obrot 2s;
+	 transition-property:height;
+	 transition-duration:1s;
+	 transition-timing-function: ease-in-out;
+}
+svg:hover{
+	height:100px;
+}
+@keyframes obrot {
+  0%{ transform:rotate( 0deg);}
+  30% {transform:rotate( 100deg) ;}
+  60% { transform:rotate( -100deg );}
+  100% { transform:rotate( -360deg );}
+}
+@media only screen and (max-width: 1300px) {
+	.up {display:none;}
+	.down {display:none;}
+}
+@media only screen and (max-width: 900px) {
+	#tytul{font-size:64px;}
+	#navi {width:100%; position:absolute; top:190px; left:20px; height:0px;display:inline;}
+	#navi>li {border: none; width:210px; height:50px;margin-bottom:0px;}
+	#navi>li:first-child {border: none;}
+	#navi>li:last-child {border: none;}
+	h1{margin-top:200px; font-size: 50px;}
+	#kontener {width: 98%;position:relative;}
+	.zdjecie{margin:10px; position:relative;}
+	.opis{margin:0px;position:relative;width:99%;}
+	.osiagniecia{font-size:22px;}
+	.szachy{display:none;}
+	table{width:80%;}
+	ol{float:none;width: 80%;margin:20px;}
+	svg{display:none;}
+}
+

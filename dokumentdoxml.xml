@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="transformacja.xslt"?>
+<szachy>
+	<arcymistrzowie>
+		<arcymistrz plec="mężczyzna" wiek="33">
+			<imie>Magnus</imie>
+			<nazwisko>Carlsen</nazwisko>
+			<dataUrodzenia>1990-11-30</dataUrodzenia>
+			<kontynent>Europa</kontynent>
+			<panstwo>Norwegia</panstwo>
+			<ranking>2828</ranking>
+			<zdjecie zrodlo="img/carlsen.jpg">Magnus Carlsen</zdjecie>
+			<link zrodlo="https://pl.wikipedia.org/wiki/Magnus_Carlsen">Link do Wikipedii</link>
+			<osiagniecia>
+				<kiedyArcymistrz>2004</kiedyArcymistrz>
+				<osiagniecie numer="1">
+					<rokOsiagniecia>2015</rokOsiagniecia>
+					<opis>Zdobył pierwsze mistrzostwo świata w szachach błyskawicznych w Berlinie.</opis>
+				</osiagniecie>
+				<osiagniecie numer="2">
+					<rokOsiagniecia>2022</rokOsiagniecia>
+					<opis>Zwyciężył po raz piąty Norway Chess title w 2022r.</opis>
+				</osiagniecie>
+				<osiagniecie numer="3">
+					<rokOsiagniecia>2023</rokOsiagniecia>
+					<opis>Zwyciężył w Pucharze Świata w szachach w 2023r.</opis>
+				</osiagniecie>
+			</osiagniecia>
+		</arcymistrz>
+		
+		<arcymistrz plec="mężczyzna" wiek="25">
+			<imie>Jan</imie>
+			<drugieImie>Krzysztof</drugieImie>
+			<nazwisko>Duda</nazwisko>
+			<dataUrodzenia>1998-04-26</dataUrodzenia>
+			<kontynent>Europa</kontynent>
+			<panstwo>Polska</panstwo>
+			<ranking>2726</ranking>
+			<zdjecie zrodlo="img/duda.jpg">Jan-Krzysztof Duda</zdjecie>
+			<link zrodlo="https://pl.wikipedia.org/wiki/Jan-Krzysztof_Duda">Link do Wikipedii</link>
+			<osiagniecia>
+				<kiedyArcymistrz>2013</kiedyArcymistrz>
+				<osiagniecie numer="1">
+					<rokOsiagniecia>2017</rokOsiagniecia>
+					<opis>1 lipca został pierwszym polskim juniorem, który przekroczył barierę 2700 punktów.</opis>
+				</osiagniecie>
+				<osiagniecie numer="2">
+					<opis>Jest najwyżej sklasyfikowanym Polakiem w szachach.</opis>
+				</osiagniecie>
+				<osiagniecie numer="3">
+					<rokOsiagniecia>2022</rokOsiagniecia>
+					<opis>23 maja wygrał turniej szachów szybkich i błyskawicznych Superbet Rapid and Blitz Poland 2022.</opis>
+				</osiagniecie>
+			</osiagniecia>
+		</arcymistrz>
+		
+		<arcymistrz plec="mężczyzna" wiek="36">
+			<imie>Hikaru</imie>
+			<nazwisko>Nakamura</nazwisko>
+			<dataUrodzenia>1987-12-09</dataUrodzenia>
+			<kontynent>Ameryka Północna</kontynent>
+			<panstwo>Stany Zjednoczone</panstwo>
+			<ranking>2780</ranking>
+			<zdjecie zrodlo="img/nakamura.jpg">Hikaru Nakamura</zdjecie>
+			<link zrodlo="https://pl.wikipedia.org/wiki/Hikaru_Nakamura">Link do Wikipedii</link>
+			<osiagniecia>
+				<kiedyArcymistrz>2003</kiedyArcymistrz>
+				<osiagniecie numer="1">
+					<opis>Został najmłodszym amerykańskim szachistą, z tytułem arcymistrza.</opis>
+				</osiagniecie>
+				<osiagniecie numer="2">
+					<opis>W 2013 zwyciężył w turnieju London Chess Classic 2013.</opis>
+				</osiagniecie>
+				<osiagniecie numer="3">
+					<opis>Prowadzi kanał na YT, gdzie ma ponad 2 mln subskrybentów.</opis>
+				</osiagniecie>
+			</osiagniecia>
+		</arcymistrz>
+		
+		<arcymistrz plec="mężczyzna" wiek="60">
+			<imie>Garry</imie>
+			<nazwisko>Kasparov</nazwisko>
+			<dataUrodzenia>1963-04-13</dataUrodzenia>
+			<kontynent>Azja</kontynent>
+			<panstwo>Rosja</panstwo>
+			<ranking>2812</ranking>
+			<zdjecie zrodlo="img/kasparov.jpg">Garry Kasparov</zdjecie>
+			<link zrodlo="https://pl.wikipedia.org/wiki/Garri_Kasparow">Link do Wikipedii</link>
+			<osiagniecia>
+				<kiedyArcymistrz>1980</kiedyArcymistrz>
+				<osiagniecie numer="1">
+					<opis>Poległ w starciu z powstałym programem szachowym Deep Blue.</opis>
+				</osiagniecie>
+				<osiagniecie numer="2">
+					<opis>Był pierwszym szachistą, który przekroczył ranking 2800.</opis>
+				</osiagniecie>
+				<osiagniecie numer="3">
+					<opis>Napisał książkę "How life imitates chess?"</opis>
+				</osiagniecie>
+			</osiagniecia>
+		</arcymistrz>
+		
+		<arcymistrz plec="mężczyzna" wiek="54">
+			<imie>Viswanathan</imie>
+			<nazwisko>Anand</nazwisko>
+			<dataUrodzenia>1969-12-11</dataUrodzenia>
+			<kontynent>Azja</kontynent>
+			<panstwo>Indie</panstwo>
+			<ranking>2754</ranking>
+			<zdjecie zrodlo="img/anand.jpg">Viswanathan Anand</zdjecie>
+			<link zrodlo="https://en.wikipedia.org/wiki/Viswanathan_Anand">Link do Wikipedii</link>
+			<osiagniecia>
+				<kiedyArcymistrz>1989</kiedyArcymistrz>
+				<osiagniecie numer="1">
+					<opis>Cieszy się niezmierną sławą w swoim kraju, porównywalną do Lewandowskiego w Polsce.</opis>
+				</osiagniecie>
+				<osiagniecie numer="2">
+					<opis>Jest ambasadorem World Wide Fund for Nature.</opis>
+				</osiagniecie>
+			</osiagniecia>
+		</arcymistrz>
+		
+	</arcymistrzowie>
+	
+	<gra>
+		<coPrzygotowac>
+		Plansza Bierki Zegar Humor Czas
+		</coPrzygotowac>
+		
+		<porady>
+			<porada numer="1">
+				<tekst>Zapamiętaj sposoby przemieszczania się każdej figury.</tekst>
+			</porada>
+			<porada numer="2">
+				<tekst>Analizuj swoje partie za pomocą silnika szachowego.</tekst>
+			</porada>
+			<porada numer="3">
+				<tekst>Przewiduj ruchy przeciwnika, każdy ruch ma jakiś zamiar.</tekst>
+			</porada>
+			<porada numer="4">
+				<tekst>Opanuj na początku partii środek szachownicy.</tekst>
+			</porada>
+			<porada numer="5">
+				<tekst>Zadbaj o szybkie rozwinięcie figur lekkich.</tekst>
+			</porada>
+		</porady>
+		
+		<bierki>
+			<bierka nazwa="Król" ilosc="0.0625">
+				<wartosc>Bezcenny</wartosc>
+				<poruszanie ograniczone="tak">
+					<dlugosc>1</dlugosc>
+					<kierunek>Każda strona</kierunek>
+				</poruszanie>
+			</bierka>
+			<bierka nazwa="Królowa" ilosc="0.0625">
+				<wartosc>9</wartosc>
+				<poruszanie ograniczone="nie">
+					<kierunek>Każda strona</kierunek>
+				</poruszanie>
+			</bierka>
+			<bierka nazwa="Wieża" ilosc="0.125">
+				<wartosc>5</wartosc>
+				<poruszanie ograniczone="nie">
+					<kierunek>Pion i poziom</kierunek>
+				</poruszanie>
+			</bierka>
+			<bierka nazwa="Goniec" ilosc="0.125">
+				<wartosc>3</wartosc>
+				<poruszanie ograniczone="nie">
+					<kierunek>Diagonale</kierunek>
+				</poruszanie>
+			</bierka>
+			<bierka nazwa="Skoczek" ilosc="0.125">
+				<wartosc>3</wartosc>
+				<poruszanie ograniczone="tak">
+					<dlugosc>2</dlugosc>
+					<kierunek>Litera L</kierunek>
+				</poruszanie>
+			</bierka>
+			<bierka nazwa="Pionek" ilosc="0.5">
+				<wartosc>1</wartosc>
+				<poruszanie ograniczone="tak">
+					<dlugosc>1</dlugosc>
+					<kierunek>Pion</kierunek>
+				</poruszanie>
+			</bierka>
+		</bierki>
+	</gra>
+	
+	<kanalyYT>
+		<kanal>
+			<nazwa>GJChess</nazwa>
+			Zachęcam do oglądania: <link zrodlo="https://www.youtube.com/@GJChess">GJChess</link>
+			<profesjonalista>International Master</profesjonalista>
+		</kanal>
+		<kanal>
+			<nazwa>ChessSimp</nazwa>
+			Zachęcam do oglądania: <link zrodlo="https://www.youtube.com/@ChessSimp">ChessSimp</link>
+			<amator>Memiarz</amator>
+		</kanal>
+		<kanal>
+			<nazwa>GothamChess</nazwa>
+			Zachęcam do oglądania:<link zrodlo="https://www.youtube.com/@GothamChess">GothamChess</link>
+			<profesjonalista>Grand Master</profesjonalista>
+		</kanal>
+	</kanalyYT>
+</szachy>
